@@ -1,8 +1,8 @@
-FROM mhart/alpine-node:4
+FROM node:alpine
 
 # inspired by https://github.com/Locke/docker-iobroker
 
-MAINTAINER Bluefox <dogafox@gmail.com>
+MAINTAINER Manuel <manuel@gombocz.com>
 
 RUN apk add --no-cache bash python build-base
 
